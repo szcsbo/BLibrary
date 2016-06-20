@@ -1,0 +1,15 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/BLibrary.Entity/obj/Debug
+/BLibrary.Entity/bin/Debug
+/BLibrary.Repository/bin/Debug
+/BLibrary.Repository/obj/Debug
+/BLibrary.Utility/bin/Debug
+/BLibrary.Utility/obj/Debug
+/BLibrary.Web/bin
+/BLibrary.Web/obj/Debug
+/BLibrary.Web.Tests/bin/Debug
+/BLibrary.Web.Tests/obj/Debug
+/packages

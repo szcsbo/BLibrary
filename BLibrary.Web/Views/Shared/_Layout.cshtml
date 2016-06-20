@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    @Styles.Render("~/Content/bootstrap/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @Styles.Render("~/Content/delta-trs")
+    <link href="~/Content/themes/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    @RenderSection("Css", false)
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Content/Scripts")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/foolproof")
+    @Scripts.Render("~/Content/custom")
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="~/Scripts/PIE_IE678.js"></script>
+</head>
+
+<body>
+    <!-- Body -->
+    @RenderBody()
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+
