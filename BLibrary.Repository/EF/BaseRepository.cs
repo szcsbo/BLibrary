@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLibrary.Repository
+namespace BLibrary.Repository.EF
 {
     public class BaseRepository<T> where T : class
     {

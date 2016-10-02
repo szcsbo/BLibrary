@@ -226,7 +226,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="scripts\jquery-3.0.0.min.map" />
     <None Include="Web.Debug.config">
